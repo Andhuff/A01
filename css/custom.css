@@ -1,0 +1,145 @@
+.cst-container {
+	flex: 1;
+	position: relative;
+	z-index: 0;
+	height: 475px;
+	background-color: #d890f1;
+	border-radius: 32px;
+	padding: 48px 64px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.cst-row {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	flex: 1;
+}
+
+.cst-set2 {
+	flex: 2;
+	background-color: #9adfd5;
+}
+
+.cst-set3 {
+	flex: 1.5;
+	background-color: #f0b695;
+}
+
+.cst-set4 {
+	flex: 1.5;
+	background-color: #fff;
+}
+
+.cst-set5 {
+	background-color: #000;
+	color: #fff;
+}
+.cst-set5 h3, .cst-set5 h1 {
+	color: #fff;
+}
+
+.cst-set--end {
+	background-color: #282b38;
+	/* height: 600px; */
+}
+.cst-set--end h3 {
+	color: #fff;
+}
+.cst-set--end h1 {
+	color: #01ca8e;
+}
+
+.cst-avatar-container {
+	width: calc(100% - 64px - 48px);
+	position: absolute;
+	top: 33%;
+	left: 64px;
+
+	margin-top: 62px;
+}
+
+.cst-input-container {
+	margin-top: auto;
+	display: flex;
+	gap: 1rem;
+}
+
+.cst-contact {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cst-avt2 {
+	width: 100%;
+}
+
+.cst-title {
+	position: relative;
+	z-index: 2;
+	text-align: right;
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+.cst-title .text-slider-items {
+	display: none;
+}
+
+.cst-subtitle {
+	position: relative;
+	z-index: 2;
+	text-align: right;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.cst-input {
+	flex: 1;
+	background-color: #323647;
+	border: 0;
+	outline: 0;
+	color: white;
+	padding: 12px 30px;
+	font-size: 1.5rem;
+	font-weight: 600;
+	border-radius: 16px;
+}
+.cst-button {
+	background-color: #01ca8e;
+	border: 0;
+	outline: 0;
+	color: white;
+	padding: 16px 30px;
+	font-size: 1.25rem;
+	font-weight: 600;
+	border-radius: 16px;
+}
+
+@media (max-width: 1080px) {
+	.cst-container {
+		min-width: 100%;
+	}
+}
+
+.cst-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 128px 256px;
+	gap: 2rem;
+}
+.cst-portofolio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 128px 256px;
+	gap: 2rem;
+}
